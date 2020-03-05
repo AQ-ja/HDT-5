@@ -89,7 +89,7 @@ print("Varianza : %s" % (varianza))
 t = [7.1, 44.6, 120.8, 187.8, 250.6] #Esta variable es para los tiempos para cada serie de procesos.
 cp = [25, 50, 100, 150, 200]# Esta es la cantidad de procesos a realizar.
 
-# Descomentar la parte siguiente para graficar
+# Si se desea desactivar las graficas solo hay que comentarlas. 
 
 print("Porcentaje de cada corrida: %s" % (t) )
 plt.plot (t, cp)
